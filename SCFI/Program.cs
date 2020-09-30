@@ -15,6 +15,8 @@ namespace SCFI
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            Console.WriteLine("Olá Amaury");
+            Console.ReadLine();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
